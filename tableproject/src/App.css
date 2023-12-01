@@ -1,0 +1,125 @@
+.forms{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputsdis{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border:1px solid black ;
+  width: 300px;
+  text-align: center; 
+   
+}
+input{
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgb(218, 45, 152);
+}
+.sumbitbtn{
+  background-color: #f4f4f4;
+      color: rgb(223, 76, 149);
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 10px;
+}
+.clearbtn{
+  background-color: #dc30a8;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+}
+.sumbitbtn:hover{
+  transition: transform 0.3s ease-in-out;
+  background-color:rgb(16, 11, 14);
+  color: white;
+}
+.clearbtn:hover{
+  background-color: rgb(10, 7, 10);
+  color: rgb(184, 37, 128);
+}
+.datasave{
+  display: none;
+}
+
+
+
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+ }
+ th{
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #615d5d;
+  background-color: #f8f8ff;
+  color: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ td{
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #615d5d;
+  color: rgb(28, 62, 71);
+  
+ }
+ tr:hover {
+  background-color: #f5f5f5;
+ }
+ 
+ .evenRow {
+  background-color: #f2f2f2;
+ }
+ 
+ .oddRow {
+  background-color: #fff;
+ }
+ .btnone{
+  margin: 5px;
+  background-color:#f4f4f4;
+  color: block;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+ }
+ .btnone:hover{
+  background-color: #a92591;
+  color: white;
+ }
+ .btnsecond{
+  background-color:#f4f4f4;
+  color: block;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+ }
+ .btnsecond:hover{
+  background-color: #a42291;
+  color: white;
+ }
+ .deleclearbtn{
+  background-color:#f4f4f4;
+  color: block;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+ }
+ .deleclearbtn:hover{
+  background-color: #b727a9;
+  color: white;
+ }
